@@ -1,3 +1,3 @@
 # Welcome to JanuszJanero github Page!
 
-![Rewa](https://github.com/JanuszJanero/JanuszJanero.github.io/blob/main/rewa.jpg)
+![Rewa](https://github.com/JanuszJanero/JanuszJanero.github.io)
