@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reset.css">
     <title>Janusz Rozanski - Front-end Developer</title>
@@ -12,20 +16,20 @@
 <body>
     <div class="main-container">
         <aside class="picture-wrapper">
-        <img class="profile-photo" src="img/profilephoto.JPEG".img/profilephoto.JPEG" alt="profile photo of Janusz Janero">
+        <img class="profile-photo" src="img/8DBC436A-BA83-473C-9DE1-F45977F82D41.jpg"profile photo of Janusz Janero">
     </aside>
     <main class="about">
         <header class="info-wrapper">
         <h1 class="name">
-            Hi, I'm Janusz Rozanski
+            Hi, I'm Janusz Rozanski 
             <span class="role">
-                Frontend Developer
+                Junior Frontend Developer 
             </span>
         </h1>
     </header>
     <div class="description">
-        <p>JS</p>
-        <p>CSS</p>
+        <p>HTML, CSS, JavaScript</p>
+        <p>React, Firebase, Git, Scrum</p>
 
     </div>
     <section class="contact">
