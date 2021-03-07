@@ -1,0 +1,175 @@
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+  /* background-color: #44c4e7;
+  background-image: linear-gradient(to bottom right, #44c4e7, #1e0ddf); */
+
+  color: #fff;
+  /* font-family: ; */
+  line-height: 1.5;
+  text-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url("./img/berlin-2676497_1920.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.main-container {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.picture-wrapper {
+  text-align: center;
+}
+
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+.button {
+  display: inline-block;
+  padding: 20px 35px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
+  border-radius: 99999999px;
+
+  color: rgb(22, 78, 100);
+  background-color: #fff;
+
+  font-size: 0.9rem;
+  text-shadow: none;
+
+  transform-origin: 0 0;
+  transform: scale(1);
+  transition: background-color 0.4s ease, transform 0.4s ease,
+    olor 0.4s ease out;
+  will-change: background-color, transform, color;
+}
+
+.role,
+.button {
+  /* font-family: ; */
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about {
+  text-align: center;
+}
+.info-wrapper {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.info-wrapper::after {
+  content: "";
+  position: absolute;
+  left: calc(50% - 4rem);
+  bottom: -10px;
+  height: 1px;
+  /* background-color: rgb(); */
+  width: 8rem;
+}
+
+.name {
+  font-size: 2.25rem;
+  line-height: 1.125;
+}
+
+.role {
+  display: block;
+  color: #ffdd44;
+  font-size: 0.75rem;
+  margin-top: 10px;
+}
+
+.description {
+  font-size: 1.5rem;
+}
+
+.contact {
+  margin-top: 25px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.socials li {
+  height: 25px;
+  width: 25px;
+  margin-right: 15px;
+}
+
+.socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  /* opacity: 0.5;
+  will-change: opacity; */
+}
+
+@media screen and (min-width: 1024px) {
+  .main-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .picture-wrapper {
+    order: 1;
+  }
+
+  .profile-photo {
+    width: 320px;
+    height: 320px;
+  }
+
+  .info-wrapper::after {
+    bottom: -15px;
+    left: 0;
+  }
+
+  .about {
+    text-align: left;
+  }
+  .description {
+    margin-top: 30px;
+  }
+  .socials {
+    justify-content: flex-start;
+  }
+
+  .button:hover {
+    background-color: #ffdd44;
+    color: #000;
+    transform: scale(1.05);
+  }
+}
