@@ -40,12 +40,12 @@
             <ul class="socials">
                 <li>
                     <a href="https://github.com/JanuszJanero" target="_blank">
-                        <img src="./icons/GitHub-Mark-Light-32px.png">
+                        <img src="./icons/GitHub-Mark-Light-64px.png">
                     </a>
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/januszrozanski/" target="_blank">
-                        <img src="./icons/LI-In-Bug.png">
+                        <img src="./icons/linkedin.png">
                     </a>
                 </li>
             </ul>
